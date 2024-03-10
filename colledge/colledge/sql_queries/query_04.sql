@@ -1,0 +1,1 @@
+SELECT AVG(mark) AS avg FROM marks;
