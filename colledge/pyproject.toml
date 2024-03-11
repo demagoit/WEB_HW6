@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 faker = "^24.1.0"
+sqlalchemy = "^2.0.28"
+alembic = "^1.13.1"
 
 
 [build-system]
