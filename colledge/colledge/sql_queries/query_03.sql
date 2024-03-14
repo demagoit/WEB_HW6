@@ -3,5 +3,5 @@ FROM marks AS m LEFT JOIN subjects AS sb ON m.subject_id = sb.id
 LEFT JOIN students AS s ON m.student_id = s.id
 LEFT JOIN groups as g ON s.group_id = g.id
 GROUP BY Subject, Team
-HAVING Subject=(?)
+HAVING Subject="Math"
 ORDER BY Team ;
